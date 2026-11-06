@@ -1,0 +1,57 @@
+<svg width="253" height="44" viewBox="0 0 253 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ícone do Halter Inclinado (Dumbbell) adaptado para fundo escuro -->
+  <g transform="translate(8, 3) skewX(-13)">
+    <!-- Barra central -->
+    <rect x="20" y="15" width="32" height="8" fill="#2D3339" stroke="#FFFFFF" stroke-width="0.6" />
+    <rect x="21" y="18" width="30" height="2.4" rx="1" fill="#14B8C4" />
+
+    <!-- Anilha externa esquerda -->
+    <rect x="4" y="6" width="9" height="26" rx="3.5" fill="#2D3339" stroke="#FFFFFF" stroke-width="0.6" />
+    <rect x="6.2" y="8.5" width="2.2" height="10" rx="1" fill="#0D8A94" />
+    <rect x="9.5" y="9.5" width="1.6" height="20" rx="0.8" fill="#14B8C4" />
+
+    <!-- Anilha interna esquerda -->
+    <rect x="11.5" y="2" width="11" height="34" rx="4" fill="#2D3339" stroke="#FFFFFF" stroke-width="0.6" />
+    <path d="M15 4.5H19.5C20.2 4.5 20.5 5 20.5 5.8V14.5H16.5V4.5Z" fill="#0D8A94" />
+    <rect x="18.2" y="4.5" width="1.8" height="29" rx="0.9" fill="#14B8C4" />
+
+    <!-- Anilha interna direita -->
+    <rect x="49.5" y="2" width="11" height="34" rx="4" fill="#2D3339" stroke="#FFFFFF" stroke-width="0.6" />
+    <rect x="52" y="4.5" width="4" height="11.5" rx="1.2" fill="#14B8C4" />
+    <rect x="56.8" y="4.5" width="1.8" height="29" rx="0.9" fill="#14B8C4" />
+
+    <!-- Anilha externa direita -->
+    <rect x="59" y="6" width="9" height="26" rx="3.5" fill="#2D3339" stroke="#FFFFFF" stroke-width="0.6" />
+    <rect x="61.2" y="8" width="3" height="9" rx="1" fill="#0D8A94" />
+  </g>
+
+  <!-- Tipografia PURE SPORTS em branco + Subtítulo ciano -->
+  <text
+    x="84"
+    y="26"
+    fill="#FFFFFF"
+    font-family="'Barlow Condensed', 'Impact', 'Arial Narrow', sans-serif"
+    font-style="italic"
+    font-weight="800"
+    font-size="27"
+    letter-spacing="0.8"
+  >
+    PURE SPORTS
+  </text>
+
+  <!-- Linha divisória ciano -->
+  <line x1="84" y1="31" x2="236" y2="31" stroke="#14B8C4" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Tagline -->
+  <text
+    x="84"
+    y="40"
+    fill="#14B8C4"
+    font-family="'Barlow Condensed', 'Inter', Arial, sans-serif"
+    font-weight="700"
+    font-size="8.2"
+    letter-spacing="1.5"
+  >
+    STRENGTH · DISCIPLINE · PERFORMANCE
+  </text>
+</svg>

@@ -1,0 +1,87 @@
+:root,
+[data-theme='pure'] {
+  --primary: #14B8C4;
+  --secondary: #A5F3FC;
+  --tertiary: #0D8A94;
+  --error: #EE4266;
+  --success: #52CA76;
+  --warning: #F6AA1C;
+  --dark-gray: #1E2225;
+  --dark-gray-2: #2D3339;
+  --dark-gray-3: #525B65;
+  --light-gray: #8F8F8F;
+  --light-gray-2: #CCCCCC;
+  --light-gray-3: #F2F6F7;
+  --white: #FFFFFF;
+  --page-bg: #F4F8F9;
+}
+
+[data-theme='drip'] {
+  --primary: #C92071;
+  --secondary: #B5B6F2;
+  --tertiary: #991956;
+  --error: #EE4266;
+  --success: #52CA76;
+  --warning: #F6AA1C;
+  --dark-gray: #1F1F1F;
+  --dark-gray-2: #474747;
+  --dark-gray-3: #666666;
+  --light-gray: #8F8F8F;
+  --light-gray-2: #CCCCCC;
+  --light-gray-3: #F5F5F5;
+  --white: #FFFFFF;
+  --page-bg: #F9F8FE;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  background-color: var(--page-bg);
+  color: var(--dark-gray-2);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-custom {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Custom Checkbox & Radio in FilterGroup */
+.custom-filter-input {
+  width: 22px;
+  height: 22px;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+/* Header NavLink styles */
+.header-nav-link {
+  font-size: 16px;
+  color: var(--dark-gray-2);
+  padding-bottom: 4px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.header-nav-link:hover {
+  color: var(--primary);
+}
+
+.header-nav-link.active {
+  color: var(--primary);
+  font-weight: 700;
+  border-bottom: 2px solid var(--primary);
+}
