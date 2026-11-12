@@ -11,6 +11,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['39', '40', '41', '42', '43'],
+    colors: ['#14B8C4', '#1E2225', '#0D8A94', '#52CA76'],
+    description:
+      'Tênis de corrida masculino desenvolvido para treinos de velocidade e provas de longa distância, oferecendo amortecimento responsivo, estabilidade e propulsão a cada passada.',
     price: 699.9,
     priceDiscount: 549.9,
   },
@@ -23,6 +30,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['Único'],
+    colors: [],
+    description:
+      'Par de halteres sextavados de 10kg com revestimento emborrachado de alta durabilidade e pegada anatômica recartilhada em aço cromado para treinos de força e musculação.',
     price: 349.9,
     priceDiscount: 279.9,
   },
@@ -35,6 +49,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['35', '36', '37', '38', '39'],
+    colors: ['#14B8C4', '#1E2225', '#0D8A94', '#52CA76'],
+    description:
+      'Tênis de corrida feminino com entressola leve de alto retorno de energia e cabedal respirável que se ajusta aos pés com conforto superior em corridas diárias.',
     price: 799.9,
     priceDiscount: 599.9,
   },
@@ -47,6 +68,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['Único'],
+    colors: [],
+    description:
+      'Kettlebell profissional de 16kg fabricado em peça única de ferro fundido, com base plana estável e alça texturizada ideal para exercícios de cross training e condicionamento.',
     price: 289.9,
     priceDiscount: 229.9,
   },
@@ -59,6 +87,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['Único'],
+    colors: [],
+    description:
+      'Tapete para yoga, pilates e alongamento com 6mm de espessura, superfície texturizada antiderrapante e amortecimento adequado para proteção das articulações.',
     price: 189.9,
     priceDiscount: 139.9,
   },
@@ -71,6 +106,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['Único'],
+    colors: [],
+    description:
+      'Relógio esportivo inteligente com GPS integrado, monitoramento contínuo de frequência cardíaca, métricas de ritmo, distância e acompanhamento de múltiplas modalidades.',
     price: 999.0,
     priceDiscount: 799.9,
   },
@@ -83,6 +125,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['Único'],
+    colors: [],
+    description:
+      'Par de luvas de 14oz para boxe e muay thai com espuma de múltiplas camadas para absorção de impacto, fechamento firme no punho e painéis respiráveis.',
     price: 299.9,
     priceDiscount: 219.9,
   },
@@ -95,6 +144,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1519861531473-9200262188bf?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1519861531473-9200262188bf?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['Único'],
+    colors: [],
+    description:
+      'Bola de basquete tamanho oficial com canais profundos para controle preciso de drible e arremesso, revestimento resistente para quadras internas e externas.',
     price: 219.9,
     priceDiscount: 169.9,
   },
@@ -107,6 +163,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['39', '40', '41', '42', '43'],
+    colors: ['#14B8C4', '#1E2225', '#0D8A94', '#52CA76'],
+    description:
+      'Tênis de corrida masculino com espuma de nitrogênio para amortecimento leve e solado de borracha de alta aderência em diferentes superfícies de corrida.',
     price: 549.9,
     priceDiscount: 429.9,
   },
@@ -119,6 +182,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['Único'],
+    colors: [],
+    description:
+      'Garrafa térmica esportiva em aço inoxidável com parede dupla isolada a vácuo, capacidade de 1 litro e tampa vedada para manter a hidratação durante o treino.',
     price: 149.9,
     priceDiscount: 109.9,
   },
@@ -131,6 +201,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['Único'],
+    colors: [],
+    description:
+      'Mochila esportiva de 30 litros com acabamento resistente à água, compartimentos organizadores para roupas e calçados de treino e alças acolchoadas ajustáveis.',
     price: 279.9,
     priceDiscount: 199.9,
   },
@@ -143,6 +220,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['Único'],
+    colors: [],
+    description:
+      'Corda de pular de alta velocidade com cabo de aço revestido ajustável e manoplas ergonômicas rolamentadas para giros rápidos e fluidos em treinos de cross training.',
     price: 89.9,
     priceDiscount: 59.9,
   },
@@ -155,6 +239,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['39', '40', '41', '42', '43'],
+    colors: ['#14B8C4', '#1E2225', '#0D8A94', '#52CA76'],
+    description:
+      'Tênis masculino projetado para cross training e levantamento de peso, com calcanhar largo e estável, cabedal reforçado e flexibilidade para exercícios funcionais.',
     price: 849.9,
     priceDiscount: 679.9,
   },
@@ -167,6 +258,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['Único'],
+    colors: [],
+    description:
+      'Rolo de espuma de alta densidade com superfície texturizada para automassagem, liberação miofascial, aquecimento muscular e recuperação pós-treino.',
     price: 159.9,
     priceDiscount: 119.9,
   },
@@ -179,6 +277,13 @@ export const PURE_PRODUCTS_DATA = [
     condition: 'Novo',
     image:
       'https://images.unsplash.com/photo-1614632537190-23e4146777db?auto=format&fit=crop&w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1614632537190-23e4146777db?auto=format&fit=crop&w=900&q=80',
+    ],
+    sizes: ['Único'],
+    colors: [],
+    description:
+      'Bola de futebol de campo com gomos selados termicamente para menor absorção de água, trajetória precisa e toque macio em gramados naturais.',
     price: 249.9,
   },
 ];

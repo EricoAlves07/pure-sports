@@ -15,12 +15,24 @@ const ProductViewPage = () => {
   const product =
     products.find((item) => String(item.id) === String(id)) || products[0];
 
-  const activeGalleryImages = isPure
-    ? [
-        { src: product.image },
-        ...galleryImages.filter((img) => img.src !== product.image).slice(0, 4),
-      ]
-    : galleryImages;
+  const activeGalleryImages =
+    Array.isArray(product.images) && product.images.length > 0
+      ? product.images.map((img) => (typeof img === 'string' ? { src: img } : img))
+      : isPure
+      ? [{ src: product.image }]
+      : galleryImages;
+
+  const productSizes = Array.isArray(product.sizes)
+    ? product.sizes
+    : isPure
+    ? ['Único']
+    : ['39', '40', '41', '42', '43'];
+
+  const productColors = Array.isArray(product.colors)
+    ? product.colors
+    : isPure
+    ? []
+    : ['#6FEEFF', '#FF6969', '#5E5E5E', '#6D70B7'];
 
   const recommendedProducts = products.slice(0, 4);
 
@@ -56,53 +68,54 @@ const ProductViewPage = () => {
               price={product.price}
               priceDiscount={product.priceDiscount}
               description={
-                isPure
+                product.description ||
+                (isPure
                   ? 'Equipamento desenvolvido com materiais de alta resistência e ergonomia avançada pela linha Pure Sports. Ideal para atletas e praticantes que buscam máximo desempenho, segurança e conforto durante treinos intensos.'
-                  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'
+                  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.')
               }
             >
-              <div>
-                <span
-                  style={{
-                    fontSize: '14px',
-                    fontWeight: 700,
-                    color: '#8F8F8F',
-                    display: 'block',
-                    marginBottom: '4px',
-                  }}
-                >
-                  Tamanho
-                </span>
-                <ProductOptions
-                  options={['39', '40', '41', '42', '43']}
-                  radius="4px"
-                  shape="square"
-                  type="text"
-                />
-              </div>
+              {productSizes.length > 0 && (
+                <div>
+                  <span
+                    style={{
+                      fontSize: '14px',
+                      fontWeight: 700,
+                      color: '#8F8F8F',
+                      display: 'block',
+                      marginBottom: '4px',
+                    }}
+                  >
+                    Tamanho
+                  </span>
+                  <ProductOptions
+                    options={productSizes}
+                    radius="4px"
+                    shape="square"
+                    type="text"
+                  />
+                </div>
+              )}
 
-              <div>
-                <span
-                  style={{
-                    fontSize: '14px',
-                    fontWeight: 700,
-                    color: '#8F8F8F',
-                    display: 'block',
-                    marginBottom: '4px',
-                  }}
-                >
-                  Cor
-                </span>
-                <ProductOptions
-                  options={
-                    isPure
-                      ? ['#14B8C4', '#1E2225', '#0D8A94', '#52CA76']
-                      : ['#6FEEFF', '#FF6969', '#5E5E5E', '#6D70B7']
-                  }
-                  shape="circle"
-                  type="color"
-                />
-              </div>
+              {productColors.length > 0 && (
+                <div>
+                  <span
+                    style={{
+                      fontSize: '14px',
+                      fontWeight: 700,
+                      color: '#8F8F8F',
+                      display: 'block',
+                      marginBottom: '4px',
+                    }}
+                  >
+                    Cor
+                  </span>
+                  <ProductOptions
+                    options={productColors}
+                    shape="circle"
+                    type="color"
+                  />
+                </div>
+              )}
             </BuyBox>
           </div>
         </div>
