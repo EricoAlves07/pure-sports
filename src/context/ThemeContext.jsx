@@ -17,10 +17,7 @@ export const ThemeProvider = ({ children }) => {
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    document.title =
-      theme === 'pure'
-        ? 'Pure Sports — Strength · Discipline · Performance'
-        : 'Digital Store — Drip Store';
+    document.title = 'Digital Store';
   }, [theme]);
 
   const toggleTheme = () => {

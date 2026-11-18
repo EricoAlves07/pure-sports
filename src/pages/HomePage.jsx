@@ -57,7 +57,7 @@ const HomePage = () => {
                 letterSpacing: '0.5px',
               }}
             >
-              PURE SPORTS: SUPERE SEUS LIMITES
+              DIGITAL STORE: SUPERE SEUS LIMITES
             </h1>
             <p
               style={{

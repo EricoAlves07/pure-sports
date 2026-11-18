@@ -1,21 +1,5 @@
 :root,
-[data-theme='pure'] {
-  --primary: #14B8C4;
-  --secondary: #A5F3FC;
-  --tertiary: #0D8A94;
-  --error: #EE4266;
-  --success: #52CA76;
-  --warning: #F6AA1C;
-  --dark-gray: #1E2225;
-  --dark-gray-2: #2D3339;
-  --dark-gray-3: #525B65;
-  --light-gray: #8F8F8F;
-  --light-gray-2: #CCCCCC;
-  --light-gray-3: #F2F6F7;
-  --white: #FFFFFF;
-  --page-bg: #F4F8F9;
-}
-
+[data-theme='pure'],
 [data-theme='drip'] {
   --primary: #C92071;
   --secondary: #B5B6F2;

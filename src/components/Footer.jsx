@@ -10,7 +10,7 @@ const Footer = () => {
   const { isPure } = useTheme();
 
   const aboutInformations = [
-    { text: isPure ? 'Sobre Pure Sports' : 'Sobre Drip Store', link: '/about' },
+    { text: 'Sobre Digital Store', link: '/about' },
     { text: 'Segurança', link: '/security' },
     { text: 'Wishlist', link: '/wishlist' },
     { text: 'Blog', link: '/blog' },
@@ -69,7 +69,7 @@ const Footer = () => {
               }}
             >
               {isPure
-                ? 'A Pure Sports é a sua loja completa de artigos esportivos, equipamentos fitness e alta performance para impulsionar os seus treinos todos os dias.'
+                ? 'A Digital Store é a sua loja completa de artigos esportivos, equipamentos fitness e alta performance para impulsionar os seus treinos todos os dias.'
                 : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.'}
             </p>
             <div className="flex align-items-center gap-4 mt-2">
@@ -129,7 +129,7 @@ const Footer = () => {
             fontSize: '13px',
           }}
         >
-          {isPure ? '© 2026 Pure Sports — Digital Store' : '© 2024 Digital Store'}
+          {isPure ? '© 2026 Digital Store' : '© 2024 Digital Store'}
         </p>
       </div>
     </footer>

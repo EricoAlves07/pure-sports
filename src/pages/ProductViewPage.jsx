@@ -70,7 +70,7 @@ const ProductViewPage = () => {
               description={
                 product.description ||
                 (isPure
-                  ? 'Equipamento desenvolvido com materiais de alta resistência e ergonomia avançada pela linha Pure Sports. Ideal para atletas e praticantes que buscam máximo desempenho, segurança e conforto durante treinos intensos.'
+                  ? 'Equipamento desenvolvido com materiais de alta resistência e ergonomia avançada pela Digital Store. Ideal para atletas e praticantes que buscam máximo desempenho, segurança e conforto durante treinos intensos.'
                   : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.')
               }
             >

@@ -1,25 +1,14 @@
 import React from 'react';
-import logoHeaderPure from '../assets/logo-header.svg';
-import logoFooterPure from '../assets/logo-footer.svg';
-import logoHeaderDrip from '../assets/logo-header-drip.svg';
-import logoFooterDrip from '../assets/logo-footer-drip.svg';
-import { useTheme } from '../context/ThemeContext';
+import logoHeader from '../assets/logo-header.svg';
+import logoFooter from '../assets/logo-footer.svg';
 
 const Logo = ({ white = false }) => {
-  const { isPure } = useTheme();
-
-  const src = isPure
-    ? white
-      ? logoFooterPure
-      : logoHeaderPure
-    : white
-    ? logoFooterDrip
-    : logoHeaderDrip;
+  const src = white ? logoFooter : logoHeader;
 
   return (
     <img
       src={src}
-      alt={isPure ? 'Pure Sports Logo' : 'Digital Store Logo'}
+      alt="Digital Store Logo"
       width={253}
       height={44}
       style={{ width: '253px', height: '44px', display: 'block' }}
