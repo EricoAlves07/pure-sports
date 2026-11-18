@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import arrowLeft from '../assets/icons/arrow-left.svg';
 import arrowRight from '../assets/icons/arrow-right.svg';
 import { resolveAssetUrl } from '../data/products';
@@ -18,6 +18,10 @@ const Gallery = ({
   images = [],
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    setCurrentIndex(0);
+  }, [images]);
 
   const isFirst = currentIndex === 0;
   const isLast = images.length === 0 || currentIndex === images.length - 1;

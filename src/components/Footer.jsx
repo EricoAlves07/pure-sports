@@ -10,11 +10,11 @@ const Footer = () => {
   const { isPure } = useTheme();
 
   const aboutInformations = [
-    { text: 'Sobre Digital Store', link: '/about' },
-    { text: 'Segurança', link: '/security' },
-    { text: 'Wishlist', link: '/wishlist' },
-    { text: 'Blog', link: '/blog' },
-    { text: 'Trabalhe conosco', link: '/careers' },
+    { text: 'Sobre Digital Store' },
+    { text: 'Segurança' },
+    { text: 'Wishlist' },
+    { text: 'Blog' },
+    { text: 'Trabalhe conosco' },
     { text: 'Meus Pedidos', link: '/meus-pedidos' },
   ];
 
@@ -37,7 +37,6 @@ const Footer = () => {
   const contactInformations = [
     {
       text: 'Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161',
-      link: '#',
     },
     {
       text: '(85) 3051-3411',

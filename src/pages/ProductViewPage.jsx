@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Layout from './Layout';
 import Gallery from '../components/Gallery';
@@ -14,6 +14,10 @@ const ProductViewPage = () => {
 
   const product =
     products.find((item) => String(item.id) === String(id)) || products[0];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [product.id]);
 
   const activeGalleryImages =
     Array.isArray(product.images) && product.images.length > 0
@@ -49,6 +53,7 @@ const ProductViewPage = () => {
         <div className="flex flex-column lg:flex-row gap-5 align-items-start mb-6">
           <div style={{ flex: '1 1 auto', maxWidth: '700px', width: '100%' }}>
             <Gallery
+              key={product.id}
               images={activeGalleryImages}
               showThumbs
               width="700px"
